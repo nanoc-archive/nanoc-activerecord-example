@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+compile '*' do
+  layout 'default'
+end
+
+route '*' do
+  item.identifier + 'index.html'
+end
+
+layout '*', :erb

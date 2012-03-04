@@ -1,0 +1,9 @@
+data_sources:
+  -
+    type: filesystem_unified
+  -
+    type: people
+
+database:
+  adapter: 'sqlite3'
+  database: 'nanoc.db'

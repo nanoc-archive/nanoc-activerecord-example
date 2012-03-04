@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>People - <%= @item[:last_name] %>, <%= @item[:first_name] %></title>
+  </head>
+  <body>
+	<h1><%= @item[:last_name] %>, <%= @item[:first_name] %></h1>
+    <p><%= yield %></p>
+  </body>
+</html>
